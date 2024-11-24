@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Qué es HTML?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML</h1>
+      <p>Aprende sobre el lenguaje de marcado para estructurar páginas web.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>¿Qué es HTML?</h2>
+        <p>
+          El Lenguaje de Marcado de Hipertexto (HTML) es el código que se
+          utiliza para estructurar y desplegar una página web y sus contenidos.
+          Es un lenguaje que define la estructura de tu contenido web, no es un
+          lenguaje de programación. Consiste en una serie de elementos que
+          usarás para encerrar diferentes partes del contenido con el fin de que
+          se vean o comporten de una determinada manera.
+        </p>
+      </section>
+
+      <section>
+        <h2>Anatomía de HTML</h2>
+        <ul>
+          <li>
+            <strong>La etiqueta de apertura:</strong> consiste en el nombre del
+            elemento (en este caso, p), encerrado por paréntesis angulares
+            (&lt;&gt;) de apertura y cierre. Establece dónde comienza o empieza
+            a tener efecto el elemento —en este caso, dónde es el comienzo del
+            párrafo—.
+          </li>
+          <li>
+            <strong>La etiqueta de cierre:</strong> es igual que la etiqueta de
+            apertura, excepto que incluye una barra de cierre (/) antes del
+            nombre de la etiqueta. Establece dónde termina el elemento —en este
+            caso dónde termina el párrafo—.
+          </li>
+          <li>
+            <strong>El contenido:</strong> este es el contenido del elemento,
+            que en este caso es sólo texto.
+          </li>
+          <li>
+            <strong>El elemento:</strong> la etiqueta de apertura, más la
+            etiqueta de cierre, más el contenido equivale al elemento.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Estructura y Principales Etiquetas</h2>
+        <ul>
+          <li>
+            <code>&lt;!DOCTYPE html&gt;</code> — El tipo de documento. Es un
+            preámbulo requerido. Es una instrucción especial que va al inicio de
+            nuestro documento HTML y que permite al navegador entender qué
+            versión de HTML estamos utilizando. Esta información determinará la
+            manera en la que el navegador procesará el documento, un DOCTYPE
+            distinto podría implicar hasta una visualización diferente del sitio
+            web dentro del mismo navegador.
+          </li>
+          <li>
+            <code>&lt;html&gt;</code> — El elemento <code>&lt;html&gt;</code>.
+            Etiqueta que indica que lo que viene a continuación es un documento
+            HTML. Este elemento encierra todo el contenido de la página entera
+            y, a veces, se le conoce como el elemento raíz (root element).
+            <code>&lt;/html&gt;</code> es la Etiqueta de cierre del documento.
+          </li>
+          <li>
+            <code>&lt;head&gt;</code> — El elemento <code>&lt;head&gt;</code>.
+            Etiqueta de apertura de la cabecera. Este elemento actúa como un
+            contenedor de todo aquello que quieres incluir en la página HTML que
+            no es contenido visible por los visitantes de la página. Aquí va la
+            información sobre el título de la página, el autor, palabras clave,
+            etc. que no se presentarán en la ventana del navegador, salvo el
+            título que aparecerá en la barra de título de la parte superior.
+            Incluye cosas como palabras clave (keywords), una descripción de la
+            página que quieres que aparezca en resultados de búsquedas, código
+            CSS para dar estilo al contenido, declaraciones del juego de
+            caracteres, etc. <code>&lt;/head&gt;</code> es la Etiqueta de cierre
+            de la cabecera.
+          </li>
+          <li>
+            <code>&lt;body&gt;</code> — El elemento <code>&lt;body&gt;</code>.
+            Etiqueta de apertura del cuerpo. Aquí va el contenido de la página
+            que será lo que se presente en pantalla. Encierra todo el contenido
+            que deseas mostrar a los usuarios web que visiten tu página, ya sea
+            texto, imágenes, videos, juegos, pistas de audio reproducibles, y
+            demás. <code>&lt;/body&gt;</code> es la Etiqueta de cierre del
+            cuerpo.
+          </li>
+          <li>
+            <code>&lt;meta charset="utf-8"&gt;</code> —
+            <code>&lt;meta&gt;</code>. Este elemento establece el juego de
+            caracteres que tu documento usará en <code>utf-8</code>, que incluye
+            casi todos los caracteres de todos los idiomas humanos. Básicamente,
+            puede manejar cualquier contenido de texto que puedas incluir. No
+            hay razón para no establecerlo, y puede evitar problemas en el
+            futuro.
+          </li>
+          <li>
+            <code>&lt;title&gt;</code> — El elemento
+            <code>&lt;title&gt;</code> establece el título de tu página, que es
+            el título que aparece en la pestaña o en la barra de título del
+            navegador cuando la página es cargada, y se usa para describir la
+            página cuando es añadida a los marcadores o como favorita.
+          </li>
+          <li>
+            <code>&lt;footer&gt;</code> — Esta etiqueta indica el término del
+            sitio web dentro de la estructura.
+          </li>
+          <li>
+            <code>&lt;p&gt;</code> — Esta etiqueta se utiliza para definir un
+            párrafo de texto. Es el elemento apropiado para distribuir el texto
+            en párrafos. La etiqueta de cierre es opcional.
+          </li>
+          <li>
+            <code>&lt;img&gt;</code> — Esta etiqueta se utiliza para insertar
+            imágenes en una página web. Se trata de un elemento vacío (no
+            contiene texto o etiqueta de cierre), actúa como un marcador de
+            posición que enlaza la imagen con su ubicación real en la página
+            web, y requiere de por lo menos un atributo para ser utilizado. Los
+            atributos son: <code>src</code> (source) que especifica la ruta de
+            la imagen, y <code>alt</code>, que muestra un texto alternativo si
+            la imagen no se puede mostrar.
+          </li>
+          <li>
+            <code>&lt;audio&gt;</code> — Esta etiqueta se utiliza para insertar
+            contenido de audio en un documento HTML.
+          </li>
+          <li>
+            <code>&lt;video&gt;</code> — Esta etiqueta se utiliza para insertar
+            contenido de video en un documento HTML.
+          </li>
+          <li>
+            <code>&lt;embed&gt;</code> — Es una etiqueta utilizada para insertar
+            contenido multimedia de terceros en una página web, como videos de
+            YouTube, mapas de Google Maps, animaciones de Flash, etc.
+          </li>
+          <li>
+            <code>&lt;nav&gt;</code> — Representa una sección de una página cuyo
+            propósito es proporcionar enlaces de navegación, ya sea dentro del
+            documento actual o a otros documentos.
+          </li>
+          <li>
+            <code>&lt;article&gt;</code> — Esta etiqueta sirve para definir
+            partes con la suficiente importancia como para considerarse una
+            entidad destacable con la información a su alrededor. Se utiliza
+            para definir un contenido independiente y autocontenido.
+          </li>
+          <li>
+            <code>&lt;section&gt;</code> — Es un elemento estructural que se
+            utiliza para agrupar elementos relacionados y definir secciones de
+            un documento. Representa una sección genérica independiente de un
+            documento, que no tiene un elemento semántico más específico para
+            representarla.
+          </li>
+          <li>
+            <code>&lt;div&gt;</code> — Es un elemento que define divisiones
+            lógicas en el contenido de una página web, es un contenedor genérico
+            de bloque para otros elementos. Es genérico porque no describe el
+            contenido que tiene.
+          </li>
+          <li>
+            <code>&lt;span&gt;</code> — Es un elemento contenedor en línea
+            genérico, que se utiliza para agrupar elementos o texto en línea, o
+            para aplicar estilo. Estas etiquetas envuelven secciones de texto
+            con fines de estilo o para agregar atributos a una sección de texto,
+            sin crear una nueva línea de contenido.
+          </li>
+          <li>
+            <code>&lt;canvas&gt;</code> — Es un elemento que se puede utilizar
+            para dibujar gráficos, animaciones y composiciones de fotos a través
+            de comandos, como por ejemplo JavaScript.
+          </li>
+          <li>
+            <code>&lt;aside&gt;</code> — Esta etiqueta se utiliza para
+            representar una sección de una página que consiste en contenido que
+            está indirectamente relacionado con el contenido principal del
+            documento, o sea que contiene información complementaria al
+            contenido principal.
+          </li>
+          <li>
+            <code>&lt;datalist&gt;</code> — Es una etiqueta que se utiliza para
+            crear una lista de opciones predefinidas que se pueden utilizar en
+            un campo de entrada. La lista de opciones se muestra como un menú
+            desplegable cuando se hace clic en el campo de entrada o se comienza
+            a escribir en él.
+          </li>
+          <li>
+            <code>&lt;details&gt;</code> — Esta etiqueta es usada como un widget
+            de revelación, a través del cual el usuario puede obtener
+            información adicional.
+          </li>
+          <li>
+            <code>&lt;output&gt;</code> — Es una etiqueta que representa el
+            resultado de un cálculo, operación o un script que se ejecuta.
+          </li>
+          <li>
+            <code>&lt;progress&gt;</code> — Esta etiqueta se utiliza para
+            mostrar el progreso de una tarea.
+          </li>
+          <li>
+            <code>&lt;ul&gt;</code> — Es una etiqueta utilizada para crear una
+            lista desordenada (con viñetas).
+          </li>
+          <li>
+            <code>&lt;ol&gt;</code> — Es una etiqueta utilizada para crear una
+            lista ordenada (con números).
+          </li>
+          <li>
+            <code>&lt;li&gt;</code> — Es una etiqueta utilizada para definir
+            elementos en las listas tanto ordenadas como desordenadas.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <button onclick="location.href='index.html'">Volver al inicio</button>
+    </footer>
+  </body>
+</html>
